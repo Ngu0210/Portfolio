@@ -5,7 +5,7 @@
 **github**: https://github.com/Ngu0210
 \
 \
-**Website**: https://test.com/index.html
+**Website**: https://ngu0210.github.io/Portfolio/
 ## Purpose
 \
 This portfolio purpose is to attract, aspire and demostrate my knowledge of interest and ability of programming towards employers whom is looking for a **Dev** and/or **IT professional**. 
