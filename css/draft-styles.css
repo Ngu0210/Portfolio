@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #222;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 175vh;
+    text-align: center; 
+}
+
+.wrapper > * {
+    padding: 20px;
+}
+
+.page-header {
+    background-image: url(../resources/background-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 350px;
+}
+
+.wrapper-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.page-header h1 {
+    font-size: 35px;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-transform: uppercase;
+}
+
+#image-header {
+    background-image: url("../resources/bobbyboo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    height: 150px;
+    width: 150px;
+}
+
+#contacts {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.page-main {
+    background-image: url("../resources/background-03.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.wrapper-main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#text-main {
+    background-color:rgba(51, 51, 51, 0.5);
+    flex-grow: 1;
+    max-height: 50%;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-height: ;
+}
+
+#text-main p {
+    margin: 10px;
+}
+
+.pages {
+    flex-grow: 1;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    max-height: 150px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: yellow
+}
+
+#introduction {
+    background-color: rgba(128, 0, 128, 0.5);
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+}
+
+#experience {
+    background-color: rgba(138, 43, 226, 0.5);
+    font-family: 'Sigmar One', cursive;
+}
+
+#blog {
+    background-color: rgba(219, 112, 148, 0.5);
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+}
+
+.page-footer {
+    background-image: linear-gradient(to bottom right, #af43fa, #e4bdff);
+    padding: 40px 0 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    background-position: center;
+    background-size: contain;
+    margin: 0px 20px 0px 20px;
+    height: 50px;
+    width: 50px;
+}
+
+#linkedin {
+    background-image: url("../resources/linkedin.png");
+}
+
+#github {
+    background-image: url("../resources/github.png");
+}
+
+#resume {
+    background-image: url("../resources/resume_image.png");
+}

@@ -1,0 +1,172 @@
+
+/* This is get rids of the surronding margins in the html */
+* {
+    margin: 0;
+}
+
+/* The nav bar section */
+nav {
+    background-color: #333;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+}
+
+nav ul {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 5px 0px 5px;
+}
+
+/* The header section */
+header{
+    background-image: url(../resources/background-12.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.65;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#title {
+    background-color: rgba(76, 76, 76, 0.5);
+    padding: 18px;
+    letter-spacing: 10px;
+    color: #fff;
+    font: 400 40px/1.8 "Lato", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 80%;
+}
+
+/* The blog section */
+.card {
+    height: 70vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font: 300 14px/1.8 "Lato", sans-serif;
+}
+
+/* Dark mode version of the blog */
+#black {
+    background-color: #222;
+    color: #fff;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content h3 {
+    font: 300 20px/1.8 "Lato", sans-serif;
+}
+
+/* The date of the blog */
+.date {
+    color: #777;
+    font-size: 10px;
+}
+
+.image-controller {
+    margin: 10px 0px 10px 0px;
+    background-position: center;
+    background-size: contain;
+    flex-grow: 1;
+    background-repeat: no-repeat;
+    background-color: rgba(76, 76, 76, 0.10);
+}
+
+/* The blog images */
+#card-image-01 {
+    background-image: url("../resources/blog-01.jpg");
+}
+
+#card-image-02 {
+    background-image: url("../resources/blog-02.jpg");
+}
+
+#card-image-03 {
+    background-image: url("../resources/blog-03.jpg");
+}
+
+#card-image-04 {
+    background-image: url("../resources/blog-04.jpg");
+}
+
+#card-image-05 {
+    background-image: url("../resources/blog-05.jpg");
+}
+
+/* The footer section */
+footer {
+    background-color: #fff;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+    max-width: 70%;
+    height: 40%;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    max-width: 50%;
+    padding: 10px;
+    flex-grow: 1;
+    height: 40%;
+    font: 400 11px/1.8 "Lato", sans-serif;
+}
+
+.icon-properties {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    height: 100%;
+}
+
+/* The icon section  */
+#icon-01 {
+    background-image: url("../resources/icon-1.svg");
+}
+
+#icon-02 {
+    background-image: url("../resources/icon-2.svg");
+}
+
+#icon-03 {
+    background-image: url("../resources/icon-4.svg");
+    height: 90%;
+}
+
+

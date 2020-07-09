@@ -1,0 +1,143 @@
+
+/* This is get rids of the surronding margins in the html */
+* {
+    margin: 0;
+}
+
+/* The nav bar section */
+nav {
+    background-color: #333;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+}
+
+nav ul {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 5px 0px 5px;
+}
+
+/* The header section */
+header {
+    background-image: url(../resources/background-04.jpg);
+    height: 90vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.65;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    background-color: #111;
+    padding: 18px;
+    letter-spacing: 10px;
+    color: #fff;
+    font: 400 15px "Lato", sans-serif
+}
+
+/* The hero section */
+.hero {
+    height: 15vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    margin: 20.3px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* The second header section */
+.bgimg-1 {
+    height: 40vh;
+    background-image: url(../resources/background-05.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.65;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title-2{
+    background-color: rgba(76, 76, 76, 0.65);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font: 400 20px "Lato", sans-serif;
+    letter-spacing: 10px;
+}
+
+/* The footer section */
+footer {
+    background-color: #444;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+    max-width: 70%;
+    height: 40%;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    max-width: 50%;
+    padding: 10px;
+    flex-grow: 1;
+    height: 40%;
+    font: 400 11px/1.8 "Lato", sans-serif;
+    color: #fff;
+}
+
+.icon-properties {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    height: 100%;
+}
+
+/* The icon section */
+#icon-01 {
+    background-image: url("../resources/icon-1.svg");
+}
+
+#icon-02 {
+    background-image: url("../resources/icon-2.svg");
+}
+
+#icon-03 {
+    background-image: url("../resources/icon-4.svg");
+    height: 90%;
+}
+

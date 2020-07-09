@@ -1,0 +1,158 @@
+/* This is the phone resolution section  */
+
+/* Vertical */
+@media only screen and (min-width: 330px) and (min-height: 640px) {
+    nav {
+        justify-content: center;
+    }
+}
+
+/* Horizontal */
+@media only screen and (min-width: 640px) and (min-height: 330px) {
+    nav {
+        justify-content: center;
+    }
+
+    nav a {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .hero {
+        height: 120vh
+    }
+
+    #black {
+        height: 140vh;
+    }
+
+    .icon-wrapper {
+        height: 70%;
+    }
+}
+
+/* This is the tablet resolution section */
+
+/* Vertical */
+@media only screen and (min-width: 768px) and (min-height: 1020px) {
+    nav {
+        font-size: 18px;
+        justify-content: flex-end;
+    }
+
+    nav ul {
+        margin-right: 20px;
+    }
+
+    nav a {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .hero {
+        height: 50vh;
+    }
+
+    .hero-text h3{
+        font-size: 30px
+    }
+
+    .hero-text {
+        font-size: 15px;
+    }
+
+    #black {
+        height: 50vh;
+    }
+
+    footer {
+        height: 8vh;
+    }
+
+    .icon-wrapper {
+        height: 40%;
+        padding-left: 20px;
+    }
+
+    .contact-wrapper {
+        font-size: 14px;
+    }
+}
+
+/* Horizontal */
+@media only screen and (min-width: 1020px) and (min-height: 768px) {
+    nav {
+        font-size: 18px;
+        justify-content: flex-end;
+    }
+
+    nav ul {
+        margin-right: 20px;
+    }
+
+    nav a {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .hero {
+        height: 50vh;
+    }
+
+    #black {
+        height: 70vh;
+    }
+
+    .icon-wrapper {
+        height: 40%;
+    }
+}
+
+@media screen and (min-width: 1280px) and (min-height: 720px) {
+    nav {
+        font-size: 16px;
+        justify-content: flex-end;
+    }
+
+    nav ul {
+        padding-right: 20px;
+    }
+
+    nav a {
+        padding: 0px 20px 0px 20px;
+    }
+
+    header {
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+
+    .bgimg-1 {
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+
+    .hero {
+        height: 50vh;
+    }
+
+    .hero-text {
+        max-width: 70%;
+    }
+
+    #black {
+        height: 50vh;
+    }
+
+    footer {
+        height: 7vh;
+    }
+
+    .icon-wrapper {
+        height: 70%;
+        max-width: 30%;
+    }
+
+    .contact-wrapper {
+        font-size: 12px;
+        text-align: right;
+    }
+}
